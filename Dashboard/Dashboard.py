@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-day_df = pd.read_csv('D:/python/Bike-sharing-dataset/day.csv')  
-hour_df = pd.read_csv('D:/python/Bike-sharing-dataset/hour.csv')
+day_df = pd.read_csv('https://raw.githubusercontent.com/hanakorui/Proyek-Akhir-Dicoding/master/Dashboard/Bike-sharing-dataset.%20csv/day.csv')
+hour_df = pd.read_csv('https://raw.githubusercontent.com/hanakorui/Proyek-Akhir-Dicoding/master/Dashboard/Bike-sharing-dataset.%20csv/hour.csv')
 
 st.title("Bike Sharing Analysis :bike: :sparkles: ")
 
